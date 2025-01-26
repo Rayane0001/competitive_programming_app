@@ -1,7 +1,7 @@
 # app/api/routers/problems.py
 from fastapi import APIRouter, Query
 import httpx
-from app.core.config import settings
+from core.config import settings
 
 router = APIRouter()
 
